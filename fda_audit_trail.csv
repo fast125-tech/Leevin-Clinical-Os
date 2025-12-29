@@ -1,0 +1,13 @@
+access_id,timestamp,user,role,action,details
+AUD-2025-001,2025-10-01 09:00:00,dr_smith,Medical Writer,Draft Generated,Protocol V1.0 created
+AUD-2025-002,2025-10-01 10:30:00,jane_doe,CDM,DMP Approved,Version 1.2 signed off
+AUD-2025-003,2025-10-02 14:15:00,mike_ross,CRA,SDV Complete,Site 101 Visit 1 verified
+AUD-2025-004,2025-10-03 11:20:00,admin_sys,Admin,System Config,Updated user permissions
+AUD-2025-005,2025-10-04 09:45:00,sarah_lee,Medical Coder,Dictionary Update,Loaded MedDRA v26.1
+AUD-2025-006,2025-10-04 16:00:00,crc_user,CRC,File Upload,Uploaded Lab Report for Subj-101
+AUD-1765523914,2025-12-12 12:48:34,Guest,Medical Writer,Draft Generated,"Title: A randomized, double-blind, pl..."
+AUD-1765524731,2025-12-12 13:02:11,Guest,Medical Writer,Draft Generated,"Title: A randomized, double-blind, pl..."
+AUD-1765540176,2025-12-12 17:19:36,Guest,Clinical Data Manager,Metrics Analysis,1 files
+AUD-1765541857,2025-12-12 17:47:37,Guest,Medical Writer,Draft Generated,"Title: A randomized, double-blind, pl..."
+AUD-1765551401,2025-12-12 20:26:41,Guest,Medical Writer,Draft Generated,"Title: A randomized, double-blind, pl..."
+AUD-1765683266,2025-12-14 09:04:26,Guest,Protocol Writer,Draft Generated,"Title: A randomized, Phase 2, double-..."

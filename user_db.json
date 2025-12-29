@@ -1,0 +1,19 @@
+{
+    "usernames": {
+        "admin": {
+            "email": "admin@leevin.com",
+            "name": "Admin User",
+            "password": "hashed_password_placeholder_would_be_here_but_admin_for_demo"
+        }
+    },
+    "cookie": {
+        "expiry_days": 30,
+        "key": "random_signature_key",
+        "name": "leevin_cookie"
+    },
+    "preauthorized": {
+        "emails": [
+            "admin@leevin.com"
+        ]
+    }
+}

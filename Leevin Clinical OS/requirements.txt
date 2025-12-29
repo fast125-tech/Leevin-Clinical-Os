@@ -1,0 +1,16 @@
+streamlit
+pandas
+streamlit
+pandas
+google-cloud-aiplatform
+google-cloud-firestore
+google-cloud-storage
+google-cloud-secret-manager
+tweepy
+pdfplumber
+openpyxl
+streamlit-authenticator==0.2.3
+bcrypt
+google-cloud-discoveryengine
+google-cloud-speech
+tweepy

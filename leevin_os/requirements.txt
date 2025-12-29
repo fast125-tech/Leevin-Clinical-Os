@@ -1,0 +1,18 @@
+streamlit
+pandas
+numpy
+scipy
+# CPU-only PyTorch to save slug size and memory
+torch --index-url https://download.pytorch.org/whl/cpu
+transformers
+sentence-transformers
+langchain-google-vertexai
+langchain
+google-cloud-aiplatform
+google-cloud-storage
+python-dotenv
+tenacity
+fuzzywuzzy
+openpyxl
+pdfplumber
+fpdf2

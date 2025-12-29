@@ -1,0 +1,42 @@
+Traceback (most recent call last):
+  File "C:\Users\Darshit Joshi\Leevin Clinical OS\test_v16_upgrade.py", line 47, in <module>
+    risk_res = central.cra.analyze_risk(df_risk, "Site")
+  File "C:\Users\Darshit Joshi\Leevin Clinical OS\logic\cra_brain.py", line 36, in analyze_risk
+    pd_score = (grouped[col_pd_maj] * 3) + (grouped[col_pd_min] * 1)
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+  File "C:\Users\Darshit Joshi\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\ops\common.py", line 76, in new_method
+    return method(self, other)
+  File "C:\Users\Darshit Joshi\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\arraylike.py", line 186, in __add__
+    return self._arith_method(other, operator.add)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darshit Joshi\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\frame.py", line 7932, in _arith_method
+    self, other = self._align_for_op(other, axis, flex=True, level=None)
+                  ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darshit Joshi\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\frame.py", line 8233, in _align_for_op
+    left, right = left.align(
+                  ~~~~~~~~~~^
+        right,
+        ^^^^^^
+    ...<3 lines>...
+        copy=False,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Darshit Joshi\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\generic.py", line 10510, in align
+    left, _right, join_index = self._align_series(
+                               ~~~~~~~~~~~~~~~~~~^
+        other,
+        ^^^^^^
+    ...<7 lines>...
+        fill_axis=fill_axis,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Darshit Joshi\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\generic.py", line 10653, in _align_series
+    fdata = fdata.reindex_indexer(join_index, lidx, axis=bm_axis)
+  File "C:\Users\Darshit Joshi\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\internals\managers.py", line 693, in reindex_indexer
+    self.axes[axis]._validate_can_reindex(indexer)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Darshit Joshi\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\indexes\base.py", line 4328, in _validate_can_reindex
+    raise ValueError("cannot reindex on an axis with duplicate labels")
+ValueError: cannot reindex on an axis with duplicate labels

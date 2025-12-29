@@ -1,0 +1,42 @@
+
+# Property of [SPONSOR] Confidential
+
+**Protocol Title:** A randomized, double-blind, placebo-controlled, parallelgroup,
+multicenter study to evaluate the safety and efficacy
+of secukinumab 500 mg and 250 mg in adult patients with
+active psoriatic arthritis after 16 weeks of treatment
+compared to placebo and to assess the safety, tolerability
+and efficacy up to 52 weeks
+**Protocol Number:** [PROTOCOL_NO]
+**Phase:** Phase III
+**Sponsor:** [SPONSOR]
+
+## Table of Contents
+1. Introduction
+2. Study Objectives
+3. Investigational Plan
+...
+
+## 1. Introduction
+### 1.1 Background
+(AI Fallback) Detailed background on ...
+
+### 1.2 Purpose
+To evaluate safety and efficacy...
+
+## 2. Study Objectives
+### 2.1 Primary Objective
+To demonstrate efficacy...
+
+## 3. Investigational Plan
+### 3.1 Study Design
+Auto-Inferred...
+
+## 6. Visit Schedule and Assessments
+### Table 6-1: Assessment Schedule
+| Visit | Screening | Week 0 | Week 4 |
+|-------|-----------|--------|--------|
+| Vitals| X         | X      | X      |
+
+## 12. References
+1. Clinical Trial Protocol Template Version 03

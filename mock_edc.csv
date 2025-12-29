@@ -1,0 +1,5 @@
+SubjectID,Visit,Date,Meds
+001,Visit 1,2025-01-01,None
+001,Visit 2,2025-01-15,None
+002,Visit 2,2025-01-20,None
+003,Visit 1,2025-01-01,NSAID (Ibuprofen)

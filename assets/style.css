@@ -1,0 +1,161 @@
+/* LEEVIN Premium Theme */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* Global Font Override */
+html,
+body,
+[class*="css"] {
+    font-family: 'Inter', sans-serif;
+    color: #e0e0e0;
+}
+
+/* Background gradient */
+.stApp {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+/* Sidebar Styling */
+section[data-testid="stSidebar"] {
+    background-color: #0b1120;
+    border-right: 1px solid #334155;
+}
+
+/* Card / Container Styling covering Streamlit blocks */
+div.stButton>button {
+    background: linear-gradient(90deg, #3b82f6 0%, #1e3a8a 100%);
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.5);
+}
+
+div.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.6);
+    background: linear-gradient(90deg, #60a5fa 0%, #3b82f6 100%);
+}
+
+div.stButton>button:active {
+    transform: translateY(0);
+}
+
+/* Inputs */
+.stTextInput>div>div>input,
+.stTextArea>div>div>textarea,
+.stSelectbox>div>div>div {
+    background-color: #1e293b;
+    color: #f8fafc;
+    border: 1px solid #475569;
+    border-radius: 6px;
+}
+
+.stTextInput>div>div>input:focus {
+    border-color: #1e3a8a;
+    box-shadow: 0 0 0 1px #1e3a8a;
+}
+
+/* Headers */
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    background: linear-gradient(to right, #f1f5f9, #cbd5e1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Metrics */
+[data-testid="stMetricValue"] {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.8rem;
+    color: #60a5fa;
+}
+
+/* DataFrames */
+div[data-testid="stDataFrame"] {
+    border: 1px solid #334155;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Alerts / Info Boxes */
+.stAlert {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    color: #cbd5e1;
+    border-radius: 8px;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+    background-color: transparent;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    white-space: pre-wrap;
+    background-color: #0f172a;
+    border-radius: 8px;
+    color: #94a3b8;
+    border: 1px solid #1e293b;
+    padding: 0 16px;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #1e3a8a;
+    color: #f1f5f9;
+    border-color: #60a5fa;
+}
+
+/* --- ENTERPRISE CARDS --- */
+.module-card {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    height: 100%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.module-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    border-color: #3b82f6;
+    background-color: #263346;
+}
+
+.module-card h3 {
+    color: #f8fafc;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.module-card p {
+    color: #94a3b8;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* --- STATUS CONTAINER --- */
+div[data-testid="stStatusWidget"] {
+    background-color: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+/* --- GLASS BUTTONS --- */
+.glass-btn {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+}

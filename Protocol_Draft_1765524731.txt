@@ -1,0 +1,12 @@
+# PROTOCOL: A randomized, double-blind, placebo-controlled, parallelgroup,
+multicenter study to evaluate the safety and efficacy
+of secukinumab 300 mg and 150 mg in adult patients with
+active psoriatic arthritis after 16 weeks of treatment
+compared to placebo and to assess the safety, tolerability
+and efficacy up to 52 weeks
+
+
+## Objectives
+[To be defined]
+
+## Design

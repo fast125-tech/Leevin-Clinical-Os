@@ -1,0 +1,30 @@
+[
+    {
+        "timestamp": "2025-12-11T09:15:54.415502",
+        "user": "Unknown",
+        "event_type": "SECURITY_BLOCK",
+        "details": "Pattern Match Detected: Phone",
+        "filename": "test.csv"
+    },
+    {
+        "timestamp": "2025-12-11T10:13:43.990054",
+        "user": "Unknown",
+        "event_type": "SECURITY_BLOCK",
+        "details": "Pattern Match Detected: Phone",
+        "filename": "test.csv"
+    },
+    {
+        "timestamp": "2025-12-11T10:14:05.232713",
+        "user": "Unknown",
+        "event_type": "SECURITY_BLOCK",
+        "details": "Pattern Match Detected: Phone",
+        "filename": "test.csv"
+    },
+    {
+        "timestamp": "2025-12-11T10:27:47.970311",
+        "user": "Unknown",
+        "event_type": "SECURITY_BLOCK",
+        "details": "Pattern Match Detected: Phone",
+        "filename": "test.csv"
+    }
+]

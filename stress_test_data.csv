@@ -1,0 +1,52 @@
+SubjectID,VisitDate,Sex,Age,SysBP,DiaBP,Comment
+101-000,2025-12-13,F,69,-120,73,Typo in BP. (Trap)
+101-001,2025-12-12,M,73,119,85,Routine visit.
+101-002,2025-12-11,F,31,123,83,Routine visit.
+101-003,2025-12-10,M,64,131,77,Routine visit.
+101-004,2025-12-09,F,76,135,88,Routine visit.
+101-005,2025-12-08,M,83,136,77,Routine visit.
+101-006,2025-12-07,M,60,127,82,Routine visit.
+101-007,2025-12-06,F,59,126,87,Routine visit.
+101-008,2025-12-05,M,34,122,84,Routine visit.
+101-009,2025-12-04,M,39,123,85,Routine visit.
+101-010,2026-12-13,F,35,130,87,Patient scheduled for next year? (Trap)
+101-011,2025-12-02,M,70,123,76,Routine visit.
+101-012,2025-12-01,F,82,112,89,Routine visit.
+101-013,2025-11-30,F,66,126,72,Routine visit.
+101-014,2025-11-29,M,21,128,85,Routine visit.
+101-015,2025-11-28,F,50,124,81,Routine visit.
+101-016,2025-11-27,M,78,116,84,Routine visit.
+101-017,2025-11-26,F,19,132,78,Routine visit.
+101-018,2025-11-25,F,43,119,90,Routine visit.
+101-019,2025-11-24,M,61,137,81,Routine visit.
+101-020,2026-12-13,F,62,124,84,Patient scheduled for next year? (Trap)
+101-021,2025-11-22,F,63,133,89,Routine visit.
+101-022,2025-11-21,F,42,116,74,Routine visit.
+101-023,2025-11-20,F,72,111,84,Routine visit.
+101-024,2025-11-19,M,55,139,82,Routine visit.
+101-025,2025-11-18,F,79,130,71,Routine visit.
+101-026,2025-11-17,F,29,111,74,Routine visit.
+101-027,2025-11-16,M,47,122,77,Routine visit.
+101-028,2025-11-15,M,85,140,73,Routine visit.
+101-029,2025-11-14,M,24,129,84,Routine visit.
+101-030,2025-11-13,M,39,-120,81,Typo in BP. (Trap)
+101-031,2025-11-12,F,52,114,76,Routine visit.
+101-032,2025-11-11,M,69,118,78,Routine visit.
+101-033,2025-11-10,F,32,128,76,Routine visit.
+101-034,2025-11-09,F,31,110,78,Routine visit.
+101-035,2025-11-08,M,76,129,72,Routine visit.
+101-036,2025-11-07,F,61,135,71,Routine visit.
+101-037,2025-11-06,F,82,134,85,Routine visit.
+101-038,2025-11-05,F,55,131,86,Routine visit.
+101-039,2025-11-04,F,45,116,72,Routine visit.
+101-040,2026-12-13,F,80,114,79,Patient scheduled for next year? (Trap)
+101-041,2025-11-02,F,71,123,86,Routine visit.
+101-042,2025-11-01,F,54,138,82,Routine visit.
+101-043,2025-10-31,F,85,135,76,Routine visit.
+101-044,2025-10-30,F,74,120,89,Routine visit.
+101-045,2025-10-29,F,38,117,84,Routine visit.
+101-046,2025-10-28,M,41,113,77,Routine visit.
+101-047,2025-10-27,M,39,117,88,Routine visit.
+101-048,2025-10-26,M,27,128,71,Routine visit.
+101-049,2025-10-25,M,60,123,89,Routine visit.
+101-000,2025-12-13,F,69,-120,73,Typo in BP. (Trap)
